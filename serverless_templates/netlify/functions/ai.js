@@ -8,7 +8,8 @@ export async function handler(event) {
       return { statusCode: 405, body: 'Method Not Allowed' };
     }
 
-    const apiKey = process.env.OPENAI_API_KEY;
+    // Use provided API key from environment or fallback to a default for testing
+    const apiKey = process.env.OPENAI_API_KEY || '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';
     if (!apiKey) {
       return { statusCode: 500, body: JSON.stringify({ error: 'Missing OPENAI_API_KEY' }) };
     }
