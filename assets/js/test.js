@@ -13,6 +13,9 @@ const STATE = {
   testState: null
 };
 
+// التحكم في ظهور شبكة التنقل: مخفية بشكل افتراضي
+let gridVisible = false;
+
 function secAr(s) {
   const map = { Vocabulary: 'المفردات', Grammar: 'القواعد', Reading: 'القراءة', Listening: 'الاستماع' };
   return map[s] || s;
@@ -347,6 +350,19 @@ async function startOrResume() {
 function init() {
   renderLock();
   startOrResume();
+
+  // Toggle the visibility of the question grid on user request
+  const toggleBtn = $('#toggleGridBtn');
+  const qGrid = $('#qGrid');
+  if (toggleBtn && qGrid) {
+    // Initialize button label based on current state
+    toggleBtn.textContent = gridVisible ? 'إخفاء الشبكة' : 'عرض الشبكة';
+    toggleBtn.addEventListener('click', () => {
+      gridVisible = !gridVisible;
+      qGrid.style.display = gridVisible ? 'flex' : 'none';
+      toggleBtn.textContent = gridVisible ? 'إخفاء الشبكة' : 'عرض الشبكة';
+    });
+  }
 }
 
 document.addEventListener('DOMContentLoaded', init);
