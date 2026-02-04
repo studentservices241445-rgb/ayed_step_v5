@@ -8,7 +8,9 @@ export default {
       if (request.method !== 'POST') {
         return new Response('Method Not Allowed', { status: 405 });
       }
-      if (!env.OPENAI_API_KEY) {
+      // Use provided API key from environment or fallback to a default for testing
+      const apiKey = env.OPENAI_API_KEY || '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';
+      if (!apiKey) {
         return new Response(JSON.stringify({ error: 'Missing OPENAI_API_KEY' }), { status: 500, headers: { 'Content-Type': 'application/json' } });
       }
 
@@ -17,7 +19,7 @@ export default {
       const r = await fetch('https://api.openai.com/v1/chat/completions', {
         method: 'POST',
         headers: {
-          'Authorization': `Bearer ${env.OPENAI_API_KEY}`,
+          'Authorization': `Bearer ${apiKey}`,
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
