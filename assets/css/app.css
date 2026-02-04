@@ -27,9 +27,15 @@ html{scroll-behavior:smooth}
 body{
   margin:0;
   font-family: 'Cairo','Tajawal', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  background: radial-gradient(1200px 500px at 80% -10%, rgba(201,164,76,0.18), transparent 60%),
-              radial-gradient(900px 400px at 10% 0%, rgba(15,23,42,0.16), transparent 55%),
-              var(--beige);
+  /* استخدم نمط خلفية فاخر مع صورة العلامة المائية الجديدة */
+  background:
+    radial-gradient(1200px 500px at 80% -10%, rgba(201,164,76,0.18), transparent 60%),
+    radial-gradient(900px 400px at 10% 0%, rgba(15,23,42,0.16), transparent 55%),
+    var(--beige);
+  /* صورة العلامة المائية تكرار خفيف عبر الصفحة */
+  background-image: url('../img/background-pattern.png');
+  background-repeat: repeat;
+  background-size: 600px auto;
   color:var(--navy);
   line-height:1.7;
   -webkit-font-smoothing: antialiased;
@@ -399,6 +405,118 @@ th{background: rgba(245,242,234,0.95); text-align:right; font-weight:900}
   transition: transform var(--transition);
 }
 .assistant-btn:hover{transform: translateY(-1px)}
+
+/* Animated floating button: add gentle bounce to draw attention */
+.assistant-fab .assistant-btn{
+  animation: assistant-bounce 3s infinite ease-in-out;
+}
+
+@keyframes assistant-bounce{
+  0%, 100%{transform: translateY(0)}
+  50%{transform: translateY(-3px)}
+}
+
+/* Redesigned assistant window with separate theme */
+.assistant-window{
+  position: fixed;
+  bottom: calc(90px + env(safe-area-inset-bottom));
+  left: 18px;
+  width: min(360px, calc(100vw - 36px));
+  max-height: min(560px, calc(100vh - 140px));
+  background: rgba(248,250,252,0.95);
+  border:1px solid rgba(15,23,42,0.10);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  overflow:hidden;
+  z-index:1000;
+  display:none;
+}
+.assistant-window.open{display:flex; flex-direction:column}
+.assistant-window .assistant-top{
+  padding:12px 14px;
+  background: rgba(15,23,42,0.95);
+  color:#F8FAFC;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.assistant-window .assistant-top .name{font-weight:800}
+.assistant-window .assistant-body{
+  flex:1;
+  padding:10px 14px;
+  overflow:auto;
+  background: #f7f7f5;
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+.assistant-window .bubble{
+  margin-bottom:6px;
+  padding:10px 12px;
+  border-radius: 14px;
+  max-width: 85%;
+  word-wrap: break-word;
+  font-size:14px;
+  line-height:1.6;
+}
+.assistant-window .bubble.me{
+  background: rgba(6,118,71,0.10);
+  color: var(--navy);
+  align-self:flex-end;
+}
+.assistant-window .bubble:not(.me){
+  background: rgba(15,23,42,0.08);
+  color: var(--navy);
+  align-self:flex-start;
+}
+.assistant-window .assistant-actions{
+  padding:10px 14px;
+  border-top:1px solid rgba(15,23,42,0.08);
+  background: rgba(255,255,255,0.85);
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+.assistant-window .quick{
+  display:flex;
+  gap:6px;
+  flex-wrap:wrap;
+}
+.assistant-window .assistant-input{
+  display:flex;
+  gap:6px;
+}
+.assistant-window .assistant-input .input{
+  flex:1;
+  padding:10px;
+  border-radius: 14px;
+  border:1px solid rgba(15,23,42,0.15);
+  background: rgba(255,255,255,0.95);
+}
+.assistant-window .assistant-input .btn{
+  padding:10px 14px;
+  border-radius: 14px;
+}
+
+/* Success stories accent: display user avatar in accordion header */
+.acc-head{
+  position:relative;
+  padding-left:52px;
+}
+.acc-head::before{
+  content:"";
+  position:absolute;
+  top:50%;
+  left:14px;
+  transform:translateY(-50%);
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  background-image: url('../img/user-placeholder.png');
+  background-size:cover;
+  background-position:center;
+  filter:drop-shadow(0 2px 2px rgba(0,0,0,0.1));
+}
 
 .assistant-panel{
   position: fixed;
