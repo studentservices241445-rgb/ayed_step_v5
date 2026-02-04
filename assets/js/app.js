@@ -282,32 +282,8 @@ export function getLockInfo() {
   };
 }
 
-
-
-// Service Worker (required for PWA + Offline)
-async function registerServiceWorker() {
-  if (!('serviceWorker' in navigator)) return;
-
-  const isLocalhost =
-    location.hostname === 'localhost' ||
-    location.hostname === '127.0.0.1' ||
-    location.hostname.endsWith('.local');
-
-  // Service workers require HTTPS (except localhost)
-  if (location.protocol !== 'https:' && !isLocalhost) return;
-
-  try {
-    const reg = await navigator.serviceWorker.register('./service-worker.js', { scope: './' });
-    // Try update in background (no UI disturbance)
-    if (reg && reg.update) reg.update();
-  } catch (e) {
-    console.warn('Service worker registration failed:', e);
-  }
-}
-
 export function initCommon({ disableToasts = false } = {}) {
   setPageContext({ disableToasts });
-  registerServiceWorker();
   setupInstall();
   markActiveNav();
 
@@ -317,3 +293,15 @@ export function initCommon({ disableToasts = false } = {}) {
 }
 
 export { Store };
+
+// Register service worker for PWA offline support
+if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
+  // Wait for page load to register the service worker
+  window.addEventListener('load', () => {
+    navigator.serviceWorker
+      .register('/service-worker.js')
+      .catch((err) => {
+        console.warn('Service worker registration failed:', err);
+      });
+  });
+}
