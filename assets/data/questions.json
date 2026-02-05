@@ -19199,6 +19199,2461 @@
       "transcript": "Transcript: In a study tip, the speaker reminds students to arrive early and review their notes before the test. The speaker also suggests taking short breaks to stay focused.",
       "freq_week": 10,
       "freq_month": 24
+    },
+    {
+      "id": "V-0261",
+      "section": "Vocabulary",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the best word: The manager asked us to ____ the report before Monday.",
+      "choices": [
+        "review",
+        "revise",
+        "remove",
+        "repeat"
+      ],
+      "answer_index": 1,
+      "explain_ar": "المعنى: تنقيح/تعديل. revise = تعدّل وتُحسّن، بينما review = تراجع بشكل عام.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 1,
+      "freq_month": 9
+    },
+    {
+      "id": "V-0262",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 50,
+      "prompt": "Choose the correct collocation: make a ____",
+      "choices": [
+        "decision",
+        "homework",
+        "noise",
+        "traffic"
+      ],
+      "answer_index": 0,
+      "explain_ar": "التركيب الصحيح: make a decision (اتخاذ قرار).",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 3
+    },
+    {
+      "id": "V-0263",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 51,
+      "prompt": "Choose the correct word form: She spoke ____ during the interview.",
+      "choices": [
+        "confidence",
+        "confident",
+        "confidently",
+        "confidential"
+      ],
+      "answer_index": 2,
+      "explain_ar": "نحتاج حالًا (adverb) لوصف spoke → confidently.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 1,
+      "freq_month": 4
+    },
+    {
+      "id": "V-0264",
+      "section": "Vocabulary",
+      "difficulty": 2,
+      "model_no": 50,
+      "prompt": "Choose the best meaning: 'efficient' means ____.",
+      "choices": [
+        "expensive",
+        "working well without wasting time",
+        "friendly",
+        "dangerous"
+      ],
+      "answer_index": 1,
+      "explain_ar": "efficient = فعّال ويقلل الهدر في الوقت/الجهد.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 6,
+      "freq_month": 9
+    },
+    {
+      "id": "V-0265",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 51,
+      "prompt": "Choose the best word: We need to ____ our budget for next month.",
+      "choices": [
+        "estimate",
+        "escape",
+        "erase",
+        "enable"
+      ],
+      "answer_index": 0,
+      "explain_ar": "estimate = يقدّر/يحسب تقديرًا.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 2,
+      "freq_month": 7
+    },
+    {
+      "id": "V-0266",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 50,
+      "prompt": "Complete: The train was delayed ____ heavy rain.",
+      "choices": [
+        "because of",
+        "instead of",
+        "due to",
+        "as soon as"
+      ],
+      "answer_index": 0,
+      "explain_ar": "بعدها اسم (heavy rain) → because of / due to. هنا اخترنا because of.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 8
+    },
+    {
+      "id": "V-0267",
+      "section": "Vocabulary",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the best synonym: 'purchase' = ____",
+      "choices": [
+        "borrow",
+        "buy",
+        "build",
+        "bring"
+      ],
+      "answer_index": 1,
+      "explain_ar": "purchase = buy (يشتري).",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 5,
+      "freq_month": 9
+    },
+    {
+      "id": "V-0268",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 50,
+      "prompt": "Choose the best word: Please ____ your seat belt.",
+      "choices": [
+        "fashion",
+        "fasten",
+        "fast",
+        "facility"
+      ],
+      "answer_index": 1,
+      "explain_ar": "fasten = يربط/يثبّت (حزام الأمان).",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 6
+    },
+    {
+      "id": "V-0269",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 51,
+      "prompt": "Choose the best word: The instructions are ____; anyone can follow them.",
+      "choices": [
+        "close",
+        "clean",
+        "clear",
+        "clever"
+      ],
+      "answer_index": 2,
+      "explain_ar": "clear = واضحة.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 6
+    },
+    {
+      "id": "V-0270",
+      "section": "Vocabulary",
+      "difficulty": 2,
+      "model_no": 50,
+      "prompt": "Choose the best word: The app is ____ with most phones.",
+      "choices": [
+        "comfortable",
+        "competitive",
+        "compatible",
+        "complete"
+      ],
+      "answer_index": 2,
+      "explain_ar": "compatible with = متوافق مع.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 5
+    },
+    {
+      "id": "V-0271",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 51,
+      "prompt": "Choose the best word: This medicine may ____ drowsiness.",
+      "choices": [
+        "cost",
+        "cause",
+        "count",
+        "cover"
+      ],
+      "answer_index": 1,
+      "explain_ar": "cause = يسبب.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 1
+    },
+    {
+      "id": "V-0272",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 50,
+      "prompt": "Choose the correct preposition: interested ____ science.",
+      "choices": [
+        "at",
+        "on",
+        "in",
+        "to"
+      ],
+      "answer_index": 2,
+      "explain_ar": "interested in = مهتم بـ.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 6,
+      "freq_month": 2
+    },
+    {
+      "id": "V-0273",
+      "section": "Vocabulary",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the best word: He apologized for the ____.",
+      "choices": [
+        "mission",
+        "mistake",
+        "message",
+        "method"
+      ],
+      "answer_index": 1,
+      "explain_ar": "mistake = خطأ.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 0,
+      "freq_month": 9
+    },
+    {
+      "id": "V-0274",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 50,
+      "prompt": "Choose the best word: The lecture was ____; I learned a lot.",
+      "choices": [
+        "informal",
+        "information",
+        "informative",
+        "informed"
+      ],
+      "answer_index": 2,
+      "explain_ar": "informative = مليء بالمعلومات.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 2,
+      "freq_month": 1
+    },
+    {
+      "id": "V-0275",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 51,
+      "prompt": "Choose the correct word: Please ____ the form carefully.",
+      "choices": [
+        "complex",
+        "complete",
+        "company",
+        "compact"
+      ],
+      "answer_index": 1,
+      "explain_ar": "complete the form = أكمل النموذج.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 3
+    },
+    {
+      "id": "V-0276",
+      "section": "Vocabulary",
+      "difficulty": 2,
+      "model_no": 50,
+      "prompt": "Choose the best word: The company will ____ a new product next week.",
+      "choices": [
+        "leave",
+        "laugh",
+        "launch",
+        "learn"
+      ],
+      "answer_index": 2,
+      "explain_ar": "launch = يطلق (منتج/حملة).",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 2,
+      "freq_month": 10
+    },
+    {
+      "id": "V-0277",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 51,
+      "prompt": "Choose the best word: She has a good ____ of humor.",
+      "choices": [
+        "scene",
+        "sense",
+        "since",
+        "sign"
+      ],
+      "answer_index": 1,
+      "explain_ar": "sense of humor = حسّ فكاهي.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 2,
+      "freq_month": 6
+    },
+    {
+      "id": "V-0278",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 50,
+      "prompt": "Choose the correct phrase: take ____ of",
+      "choices": [
+        "care",
+        "card",
+        "case",
+        "carry"
+      ],
+      "answer_index": 0,
+      "explain_ar": "take care of = يعتني بـ.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 4
+    },
+    {
+      "id": "V-0279",
+      "section": "Vocabulary",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the best word: We should ____ our time wisely.",
+      "choices": [
+        "marry",
+        "manage",
+        "mark",
+        "match"
+      ],
+      "answer_index": 1,
+      "explain_ar": "manage time = يدير الوقت.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 6,
+      "freq_month": 1
+    },
+    {
+      "id": "V-0280",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 50,
+      "prompt": "Choose the best word: This plan is ____; it can be changed easily.",
+      "choices": [
+        "fixed",
+        "final",
+        "flexible",
+        "fluent"
+      ],
+      "answer_index": 2,
+      "explain_ar": "flexible = مرن.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 3
+    },
+    {
+      "id": "V-0281",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 51,
+      "prompt": "Choose the best word: The results were ____; we were surprised.",
+      "choices": [
+        "unusual",
+        "unfair",
+        "unexpected",
+        "unable"
+      ],
+      "answer_index": 2,
+      "explain_ar": "unexpected = غير متوقع.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 1
+    },
+    {
+      "id": "V-0282",
+      "section": "Vocabulary",
+      "difficulty": 2,
+      "model_no": 50,
+      "prompt": "Choose the best word: The hotel is within walking ____.",
+      "choices": [
+        "district",
+        "distance",
+        "distant",
+        "distinct"
+      ],
+      "answer_index": 1,
+      "explain_ar": "walking distance = مسافة مشي.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 0,
+      "freq_month": 2
+    },
+    {
+      "id": "V-0283",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 51,
+      "prompt": "Choose the best word: The teacher gave us ____ feedback.",
+      "choices": [
+        "usual",
+        "useful",
+        "useless",
+        "user"
+      ],
+      "answer_index": 1,
+      "explain_ar": "useful feedback = ملاحظات مفيدة.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 6,
+      "freq_month": 10
+    },
+    {
+      "id": "V-0284",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 50,
+      "prompt": "Choose the best word: He is ____ for the job.",
+      "choices": [
+        "quality",
+        "qualified",
+        "quiet",
+        "quick"
+      ],
+      "answer_index": 1,
+      "explain_ar": "qualified = مؤهل.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 0,
+      "freq_month": 3
+    },
+    {
+      "id": "V-0285",
+      "section": "Vocabulary",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the best word: The price will ____ next month.",
+      "choices": [
+        "include",
+        "increase",
+        "invent",
+        "improve"
+      ],
+      "answer_index": 1,
+      "explain_ar": "increase = يزيد.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 8
+    },
+    {
+      "id": "V-0286",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 50,
+      "prompt": "Choose the best word: I ____ your help.",
+      "choices": [
+        "appear",
+        "approach",
+        "appreciate",
+        "approve"
+      ],
+      "answer_index": 2,
+      "explain_ar": "appreciate = أُقدّر.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 0,
+      "freq_month": 7
+    },
+    {
+      "id": "V-0287",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 51,
+      "prompt": "Choose the best word: The meeting was ____ until Friday.",
+      "choices": [
+        "posted",
+        "postponed",
+        "positioned",
+        "possessed"
+      ],
+      "answer_index": 1,
+      "explain_ar": "postponed = مؤجل.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 4
+    },
+    {
+      "id": "V-0288",
+      "section": "Vocabulary",
+      "difficulty": 2,
+      "model_no": 50,
+      "prompt": "Choose the best word: The book is ____ into five chapters.",
+      "choices": [
+        "decided",
+        "divided",
+        "deleted",
+        "delivered"
+      ],
+      "answer_index": 1,
+      "explain_ar": "divided into = مُقسّم إلى.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 2,
+      "freq_month": 2
+    },
+    {
+      "id": "V-0289",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 51,
+      "prompt": "Choose the best word: The device is very ____; it doesn't break easily.",
+      "choices": [
+        "double",
+        "durable",
+        "during",
+        "danger"
+      ],
+      "answer_index": 1,
+      "explain_ar": "durable = متين.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 9
+    },
+    {
+      "id": "V-0290",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 50,
+      "prompt": "Choose the best word: She is ____ to start her new job.",
+      "choices": [
+        "exact",
+        "excited",
+        "exited",
+        "exercise"
+      ],
+      "answer_index": 1,
+      "explain_ar": "excited to = متحمسة لـ.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 6,
+      "freq_month": 3
+    },
+    {
+      "id": "V-0291",
+      "section": "Vocabulary",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the best word: This is a ____ opportunity.",
+      "choices": [
+        "raw",
+        "rare",
+        "rate",
+        "raise"
+      ],
+      "answer_index": 1,
+      "explain_ar": "rare = نادرة.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 6
+    },
+    {
+      "id": "V-0292",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 50,
+      "prompt": "Choose the best word: Don't ____ your chance.",
+      "choices": [
+        "mass",
+        "mess",
+        "miss",
+        "mix"
+      ],
+      "answer_index": 2,
+      "explain_ar": "miss a chance = يفوّت فرصة.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 8
+    },
+    {
+      "id": "V-0293",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 51,
+      "prompt": "Choose the best word: The instructions are ____ online.",
+      "choices": [
+        "valuable",
+        "available",
+        "avoidable",
+        "average"
+      ],
+      "answer_index": 1,
+      "explain_ar": "available = متاح.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 0,
+      "freq_month": 9
+    },
+    {
+      "id": "V-0294",
+      "section": "Vocabulary",
+      "difficulty": 2,
+      "model_no": 50,
+      "prompt": "Choose the best word: He made a ____ effort.",
+      "choices": [
+        "series",
+        "serious",
+        "service",
+        "seriously"
+      ],
+      "answer_index": 1,
+      "explain_ar": "serious effort = جهد جاد.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 6,
+      "freq_month": 8
+    },
+    {
+      "id": "V-0295",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 51,
+      "prompt": "Choose the best word: Please ____ me know.",
+      "choices": [
+        "get",
+        "let",
+        "set",
+        "met"
+      ],
+      "answer_index": 1,
+      "explain_ar": "let me know = أعلمني.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 5,
+      "freq_month": 1
+    },
+    {
+      "id": "V-0296",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 50,
+      "prompt": "Choose the best word: The test will ____ reading and grammar.",
+      "choices": [
+        "include",
+        "increase",
+        "invite",
+        "inform"
+      ],
+      "answer_index": 0,
+      "explain_ar": "include = يشمل.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 9
+    },
+    {
+      "id": "V-0297",
+      "section": "Vocabulary",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the best word: We need more ____ about the problem.",
+      "choices": [
+        "inform",
+        "information",
+        "informative",
+        "informed"
+      ],
+      "answer_index": 1,
+      "explain_ar": "information = معلومات.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 6,
+      "freq_month": 1
+    },
+    {
+      "id": "V-0298",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 50,
+      "prompt": "Choose the best word: The student showed great ____.",
+      "choices": [
+        "project",
+        "progress",
+        "promise",
+        "process"
+      ],
+      "answer_index": 1,
+      "explain_ar": "progress = تقدم.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 9
+    },
+    {
+      "id": "V-0299",
+      "section": "Vocabulary",
+      "difficulty": 1,
+      "model_no": 51,
+      "prompt": "Choose the best word: He is ____ from home today.",
+      "choices": [
+        "walking",
+        "working",
+        "waking",
+        "wishing"
+      ],
+      "answer_index": 1,
+      "explain_ar": "working from home = يعمل من المنزل.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 5,
+      "freq_month": 9
+    },
+    {
+      "id": "V-0300",
+      "section": "Vocabulary",
+      "difficulty": 2,
+      "model_no": 50,
+      "prompt": "Choose the best word: The road was ____ due to an accident.",
+      "choices": [
+        "cleaned",
+        "cloned",
+        "closed",
+        "colored"
+      ],
+      "answer_index": 2,
+      "explain_ar": "closed = مغلق.",
+      "tags": [
+        "vocab",
+        "static",
+        "v5plus",
+        "model50"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 0,
+      "freq_month": 9
+    },
+    {
+      "id": "G-0301",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct sentence.",
+      "choices": "If I had known, I would have called you.",
+      "answer_index": [
+        "If I knew, I will call you.",
+        "If I had known, I would have called you.",
+        "If I have known, I would call you.",
+        "If I know, I would have called you."
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 2,
+      "freq_month": 9
+    },
+    {
+      "id": "G-0302",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 49,
+      "prompt": "Choose the correct form: Neither of the students ____ ready.",
+      "choices": "was",
+      "answer_index": [
+        "are",
+        "were",
+        "was",
+        "be"
+      ],
+      "explain_ar": 2,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model49"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 1
+    },
+    {
+      "id": "G-0303",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct option: She ____ to the gym every day.",
+      "choices": "goes",
+      "answer_index": [
+        "go",
+        "goes",
+        "going",
+        "gone"
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 2,
+      "freq_month": 7
+    },
+    {
+      "id": "G-0304",
+      "section": "Grammar",
+      "difficulty": 3,
+      "model_no": 49,
+      "prompt": "Choose the correct form: I have lived here ____ 2019.",
+      "choices": "since",
+      "answer_index": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model49"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 2
+    },
+    {
+      "id": "G-0305",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct form: By next week, they ____ the project.",
+      "choices": "will have finished",
+      "answer_index": [
+        "finish",
+        "will finish",
+        "will have finished",
+        "finished"
+      ],
+      "explain_ar": 2,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 7
+    },
+    {
+      "id": "G-0306",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 49,
+      "prompt": "Choose the correct sentence.",
+      "choices": "The book that I bought yesterday is interesting.",
+      "answer_index": [
+        "The book which I bought yesterday are interesting.",
+        "The book that I bought yesterday is interesting.",
+        "The book that I buy yesterday is interesting.",
+        "The book bought yesterday are interesting."
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model49"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 5
+    },
+    {
+      "id": "G-0307",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct form: There ____ many reasons to study.",
+      "choices": "are",
+      "answer_index": [
+        "is",
+        "are",
+        "was",
+        "be"
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 1,
+      "freq_month": 8
+    },
+    {
+      "id": "G-0308",
+      "section": "Grammar",
+      "difficulty": 3,
+      "model_no": 49,
+      "prompt": "Choose the correct option: I prefer tea ____ coffee.",
+      "choices": "to",
+      "answer_index": [
+        "than",
+        "to",
+        "for",
+        "with"
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model49"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 8
+    },
+    {
+      "id": "G-0309",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct option: He didn't come ____ he was sick.",
+      "choices": "because",
+      "answer_index": [
+        "so",
+        "but",
+        "because",
+        "although"
+      ],
+      "explain_ar": 2,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 1,
+      "freq_month": 9
+    },
+    {
+      "id": "G-0310",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 49,
+      "prompt": "Choose the correct form: The homework must ____ today.",
+      "choices": "be finished",
+      "answer_index": [
+        "finish",
+        "finished",
+        "be finished",
+        "finishing"
+      ],
+      "explain_ar": 2,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model49"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 0,
+      "freq_month": 6
+    },
+    {
+      "id": "G-0311",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct form: My parents ____ in Jeddah last year.",
+      "choices": "lived",
+      "answer_index": [
+        "live",
+        "lives",
+        "lived",
+        "living"
+      ],
+      "explain_ar": 2,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 5
+    },
+    {
+      "id": "G-0312",
+      "section": "Grammar",
+      "difficulty": 3,
+      "model_no": 49,
+      "prompt": "Choose the correct option: She is good ____ math.",
+      "choices": "at",
+      "answer_index": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "explain_ar": 2,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model49"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 8
+    },
+    {
+      "id": "G-0313",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct form: If it ____ tomorrow, we'll stay home.",
+      "choices": "rains",
+      "answer_index": [
+        "rain",
+        "rains",
+        "rained",
+        "will rain"
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 1,
+      "freq_month": 9
+    },
+    {
+      "id": "G-0314",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 49,
+      "prompt": "Choose the correct form: The students ____ studying when the teacher arrived.",
+      "choices": "were",
+      "answer_index": [
+        "was",
+        "were",
+        "is",
+        "are"
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model49"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 2,
+      "freq_month": 5
+    },
+    {
+      "id": "G-0315",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct option: I ____ seen that movie before.",
+      "choices": "have",
+      "answer_index": [
+        "has",
+        "have",
+        "had",
+        "having"
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 2,
+      "freq_month": 8
+    },
+    {
+      "id": "G-0316",
+      "section": "Grammar",
+      "difficulty": 3,
+      "model_no": 49,
+      "prompt": "Choose the correct form: This is the best book I ____ read.",
+      "choices": "have ever",
+      "answer_index": [
+        "has ever",
+        "have ever",
+        "had ever",
+        "ever have"
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model49"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 1,
+      "freq_month": 9
+    },
+    {
+      "id": "G-0317",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct form: She ____ speak three languages.",
+      "choices": "can",
+      "answer_index": [
+        "must",
+        "can",
+        "should",
+        "might"
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 5,
+      "freq_month": 7
+    },
+    {
+      "id": "G-0318",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 49,
+      "prompt": "Choose the correct option: The car is ____ than mine.",
+      "choices": "more expensive",
+      "answer_index": [
+        "expensiver",
+        "more expensive",
+        "most expensive",
+        "expensive"
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model49"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 1,
+      "freq_month": 2
+    },
+    {
+      "id": "G-0319",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct form: He has ____ finished his work.",
+      "choices": "already",
+      "answer_index": [
+        "yet",
+        "already",
+        "still",
+        "never"
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 2,
+      "freq_month": 8
+    },
+    {
+      "id": "G-0320",
+      "section": "Grammar",
+      "difficulty": 3,
+      "model_no": 49,
+      "prompt": "Choose the correct form: I haven't finished my project ____.",
+      "choices": "yet",
+      "answer_index": [
+        "already",
+        "still",
+        "yet",
+        "just"
+      ],
+      "explain_ar": 2,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model49"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 5,
+      "freq_month": 1
+    },
+    {
+      "id": "G-0321",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct option: They ____ to the party if they are invited.",
+      "choices": "will come",
+      "answer_index": [
+        "come",
+        "came",
+        "will come",
+        "coming"
+      ],
+      "explain_ar": 2,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 5,
+      "freq_month": 3
+    },
+    {
+      "id": "G-0322",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 49,
+      "prompt": "Choose the correct sentence.",
+      "choices": "She made me laugh.",
+      "answer_index": [
+        "She made me to laugh.",
+        "She made me laugh.",
+        "She made me laughing.",
+        "She made me laughed."
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model49"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 5,
+      "freq_month": 7
+    },
+    {
+      "id": "G-0323",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct form: The information ____ accurate.",
+      "choices": "is",
+      "answer_index": [
+        "are",
+        "were",
+        "is",
+        "be"
+      ],
+      "explain_ar": 2,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 5,
+      "freq_month": 2
+    },
+    {
+      "id": "G-0324",
+      "section": "Grammar",
+      "difficulty": 3,
+      "model_no": 49,
+      "prompt": "Choose the correct option: We arrived ____ the airport early.",
+      "choices": "at",
+      "answer_index": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "explain_ar": 2,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model49"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 9
+    },
+    {
+      "id": "G-0325",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct form: This time tomorrow I ____ on the plane.",
+      "choices": "will be sitting",
+      "answer_index": [
+        "sit",
+        "will sit",
+        "will be sitting",
+        "will have sat"
+      ],
+      "explain_ar": 2,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 5
+    },
+    {
+      "id": "G-0326",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 49,
+      "prompt": "Choose the correct option: He spoke ____ that everyone could hear.",
+      "choices": "so loudly",
+      "answer_index": [
+        "so loud",
+        "such loudly",
+        "so loudly",
+        "such loud"
+      ],
+      "explain_ar": 2,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model49"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 8
+    },
+    {
+      "id": "G-0327",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct form: The exam was ____ difficult for me.",
+      "choices": "too",
+      "answer_index": [
+        "very",
+        "too",
+        "so",
+        "enough"
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 5,
+      "freq_month": 8
+    },
+    {
+      "id": "G-0328",
+      "section": "Grammar",
+      "difficulty": 3,
+      "model_no": 49,
+      "prompt": "Choose the correct option: I have been studying ____ two hours.",
+      "choices": "for",
+      "answer_index": [
+        "since",
+        "for",
+        "during",
+        "from"
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model49"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 7
+    },
+    {
+      "id": "G-0329",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct form: She ____ been to Riyadh twice.",
+      "choices": "has",
+      "answer_index": [
+        "have",
+        "has",
+        "had",
+        "having"
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 0,
+      "freq_month": 5
+    },
+    {
+      "id": "G-0330",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 49,
+      "prompt": "Choose the correct sentence.",
+      "choices": "Not only did he apologize, but he also fixed the mistake.",
+      "answer_index": [
+        "Not only he apologized, but he also fixed the mistake.",
+        "Not only did he apologize, but he also fixed the mistake.",
+        "Not only apologized he, but also fixed he the mistake.",
+        "Not only he did apologize, but he fixed also the mistake."
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model49"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 1,
+      "freq_month": 7
+    },
+    {
+      "id": "G-0331",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct option: I'd rather you ____ here.",
+      "choices": "stayed",
+      "answer_index": [
+        "stay",
+        "stays",
+        "stayed",
+        "staying"
+      ],
+      "explain_ar": 2,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 7
+    },
+    {
+      "id": "G-0332",
+      "section": "Grammar",
+      "difficulty": 3,
+      "model_no": 49,
+      "prompt": "Choose the correct form: The students are used to ____ early.",
+      "choices": "waking up",
+      "answer_index": [
+        "wake up",
+        "woke up",
+        "waking up",
+        "wakes up"
+      ],
+      "explain_ar": 2,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model49"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 2,
+      "freq_month": 6
+    },
+    {
+      "id": "G-0333",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct option: ____ you like some tea?",
+      "choices": "Would",
+      "answer_index": [
+        "Will",
+        "Would",
+        "Do",
+        "Did"
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 6
+    },
+    {
+      "id": "G-0334",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 49,
+      "prompt": "Choose the correct form: Each of the answers ____ correct.",
+      "choices": "is",
+      "answer_index": [
+        "are",
+        "were",
+        "is",
+        "be"
+      ],
+      "explain_ar": 2,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model49"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 8
+    },
+    {
+      "id": "G-0335",
+      "section": "Grammar",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Choose the correct option: I can't find my keys; I must have ____ them at home.",
+      "choices": "left",
+      "answer_index": [
+        "leave",
+        "left",
+        "leaving",
+        "leaves"
+      ],
+      "explain_ar": 1,
+      "tags": [
+        "grammar",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 9
+    },
+    {
+      "id": "R-0181",
+      "section": "Reading",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "According to the passage, short sessions can be more effective because they are ____.",
+      "choices": [
+        "more expensive",
+        "more focused",
+        "more difficult",
+        "more entertaining"
+      ],
+      "answer_index": 1,
+      "explain_ar": "الفقرة تقول: short, focused sessions are often more effective.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nMany students think that studying longer always leads to higher scores. However, research suggests that short, focused sessions are often more effective. When learners review mistakes and practice regularly, they build stronger memory pathways. Taking short breaks also helps the brain stay attentive and reduces fatigue.",
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 6
+    },
+    {
+      "id": "R-0182",
+      "section": "Reading",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "The passage suggests that reviewing mistakes helps students ____.",
+      "choices": [
+        "forget information",
+        "build stronger memory",
+        "avoid studying",
+        "finish faster without practice"
+      ],
+      "answer_index": 1,
+      "explain_ar": "المراجعة مع الأخطاء تبني مسارات ذاكرة أقوى.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nMany students think that studying longer always leads to higher scores. However, research suggests that short, focused sessions are often more effective. When learners review mistakes and practice regularly, they build stronger memory pathways. Taking short breaks also helps the brain stay attentive and reduces fatigue.",
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 2
+    },
+    {
+      "id": "R-0183",
+      "section": "Reading",
+      "difficulty": 3,
+      "model_no": 51,
+      "prompt": "What is one benefit of taking short breaks?",
+      "choices": [
+        "It increases fatigue",
+        "It reduces attention",
+        "It helps the brain stay attentive",
+        "It replaces practice"
+      ],
+      "answer_index": 2,
+      "explain_ar": "النص: breaks help the brain stay attentive and reduces fatigue.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nMany students think that studying longer always leads to higher scores. However, research suggests that short, focused sessions are often more effective. When learners review mistakes and practice regularly, they build stronger memory pathways. Taking short breaks also helps the brain stay attentive and reduces fatigue.",
+      "transcript": null,
+      "freq_week": 0,
+      "freq_month": 3
+    },
+    {
+      "id": "R-0184",
+      "section": "Reading",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Which statement best summarizes the passage?",
+      "choices": [
+        "Long study hours are always best",
+        "Focused practice and review are key",
+        "Breaks are unnecessary",
+        "Research is not useful for students"
+      ],
+      "answer_index": 1,
+      "explain_ar": "الفكرة الرئيسية: التركيز + مراجعة أخطاء + ممارسة منتظمة.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nMany students think that studying longer always leads to higher scores. However, research suggests that short, focused sessions are often more effective. When learners review mistakes and practice regularly, they build stronger memory pathways. Taking short breaks also helps the brain stay attentive and reduces fatigue.",
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 4
+    },
+    {
+      "id": "R-0185",
+      "section": "Reading",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "The word 'fatigue' is closest in meaning to ____.",
+      "choices": [
+        "tiredness",
+        "happiness",
+        "curiosity",
+        "speed"
+      ],
+      "answer_index": 0,
+      "explain_ar": "fatigue = تعب/إرهاق.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nMany students think that studying longer always leads to higher scores. However, research suggests that short, focused sessions are often more effective. When learners review mistakes and practice regularly, they build stronger memory pathways. Taking short breaks also helps the brain stay attentive and reduces fatigue.",
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 5
+    },
+    {
+      "id": "R-0186",
+      "section": "Reading",
+      "difficulty": 3,
+      "model_no": 51,
+      "prompt": "The passage mainly talks about ____.",
+      "choices": [
+        "how to buy books",
+        "effective study habits",
+        "travel plans",
+        "different school subjects"
+      ],
+      "answer_index": 1,
+      "explain_ar": "موضوعه عادات مذاكرة فعّالة.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nMany students think that studying longer always leads to higher scores. However, research suggests that short, focused sessions are often more effective. When learners review mistakes and practice regularly, they build stronger memory pathways. Taking short breaks also helps the brain stay attentive and reduces fatigue.",
+      "transcript": null,
+      "freq_week": 0,
+      "freq_month": 7
+    },
+    {
+      "id": "R-0187",
+      "section": "Reading",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Public transportation can save time because commuters do not need to ____.",
+      "choices": [
+        "cook meals",
+        "search for parking",
+        "buy tickets",
+        "plan their day"
+      ],
+      "answer_index": 1,
+      "explain_ar": "النص: Instead of searching for parking.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nPublic transportation can save time and money, especially in busy cities. Instead of searching for parking, commuters can use the travel time to read or plan their day. Some people worry about comfort, but modern systems are becoming cleaner and more reliable.",
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 6
+    },
+    {
+      "id": "R-0188",
+      "section": "Reading",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "What can commuters do during travel time?",
+      "choices": [
+        "Sleep all day",
+        "Read or plan their day",
+        "Drive faster",
+        "Repair the bus"
+      ],
+      "answer_index": 1,
+      "explain_ar": "النص: use the travel time to read or plan their day.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nPublic transportation can save time and money, especially in busy cities. Instead of searching for parking, commuters can use the travel time to read or plan their day. Some people worry about comfort, but modern systems are becoming cleaner and more reliable.",
+      "transcript": null,
+      "freq_week": 0,
+      "freq_month": 5
+    },
+    {
+      "id": "R-0189",
+      "section": "Reading",
+      "difficulty": 3,
+      "model_no": 51,
+      "prompt": "Some people worry about ____.",
+      "choices": [
+        "weather",
+        "comfort",
+        "tickets",
+        "books"
+      ],
+      "answer_index": 1,
+      "explain_ar": "النص ذكر comfort.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nPublic transportation can save time and money, especially in busy cities. Instead of searching for parking, commuters can use the travel time to read or plan their day. Some people worry about comfort, but modern systems are becoming cleaner and more reliable.",
+      "transcript": null,
+      "freq_week": 0,
+      "freq_month": 6
+    },
+    {
+      "id": "R-0190",
+      "section": "Reading",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Modern transportation systems are becoming ____.",
+      "choices": [
+        "dirtier",
+        "slower",
+        "cleaner and more reliable",
+        "more expensive only"
+      ],
+      "answer_index": 2,
+      "explain_ar": "النص: cleaner and more reliable.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nPublic transportation can save time and money, especially in busy cities. Instead of searching for parking, commuters can use the travel time to read or plan their day. Some people worry about comfort, but modern systems are becoming cleaner and more reliable.",
+      "transcript": null,
+      "freq_week": 0,
+      "freq_month": 5
+    },
+    {
+      "id": "R-0191",
+      "section": "Reading",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "The word 'commuters' refers to people who ____.",
+      "choices": [
+        "travel to work regularly",
+        "sell cars",
+        "study abroad",
+        "build roads"
+      ],
+      "answer_index": 0,
+      "explain_ar": "commuters = الذين يتنقلون للعمل/الدراسة يوميًا.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nPublic transportation can save time and money, especially in busy cities. Instead of searching for parking, commuters can use the travel time to read or plan their day. Some people worry about comfort, but modern systems are becoming cleaner and more reliable.",
+      "transcript": null,
+      "freq_week": 3,
+      "freq_month": 2
+    },
+    {
+      "id": "R-0192",
+      "section": "Reading",
+      "difficulty": 3,
+      "model_no": 51,
+      "prompt": "The passage is mainly about ____.",
+      "choices": [
+        "advantages of public transportation",
+        "how to build trains",
+        "parking rules",
+        "city tourism"
+      ],
+      "answer_index": 0,
+      "explain_ar": "الفكرة: فوائد النقل العام.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nPublic transportation can save time and money, especially in busy cities. Instead of searching for parking, commuters can use the travel time to read or plan their day. Some people worry about comfort, but modern systems are becoming cleaner and more reliable.",
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 8
+    },
+    {
+      "id": "R-0193",
+      "section": "Reading",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Goals should be realistic because unrealistic goals may ____.",
+      "choices": [
+        "increase confidence",
+        "cause motivation to drop",
+        "reduce study materials",
+        "improve sleep"
+      ],
+      "answer_index": 1,
+      "explain_ar": "النص: motivation can drop quickly.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nGoal setting is useful, but goals must be realistic. If a learner sets a very high target without a plan, motivation can drop quickly. A better approach is to break a big goal into smaller tasks and track progress each week. Celebrating small improvements can keep learners confident and consistent.",
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 3
+    },
+    {
+      "id": "R-0194",
+      "section": "Reading",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "A better approach is to ____.",
+      "choices": [
+        "avoid planning",
+        "break big goals into smaller tasks",
+        "study once a month",
+        "ignore progress"
+      ],
+      "answer_index": 1,
+      "explain_ar": "النص: break a big goal into smaller tasks.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nGoal setting is useful, but goals must be realistic. If a learner sets a very high target without a plan, motivation can drop quickly. A better approach is to break a big goal into smaller tasks and track progress each week. Celebrating small improvements can keep learners confident and consistent.",
+      "transcript": null,
+      "freq_week": 2,
+      "freq_month": 5
+    },
+    {
+      "id": "R-0195",
+      "section": "Reading",
+      "difficulty": 3,
+      "model_no": 51,
+      "prompt": "How often does the passage suggest tracking progress?",
+      "choices": [
+        "each hour",
+        "each week",
+        "each year",
+        "never"
+      ],
+      "answer_index": 1,
+      "explain_ar": "النص: track progress each week.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nGoal setting is useful, but goals must be realistic. If a learner sets a very high target without a plan, motivation can drop quickly. A better approach is to break a big goal into smaller tasks and track progress each week. Celebrating small improvements can keep learners confident and consistent.",
+      "transcript": null,
+      "freq_week": 0,
+      "freq_month": 8
+    },
+    {
+      "id": "R-0196",
+      "section": "Reading",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Celebrating small improvements helps learners stay ____.",
+      "choices": [
+        "confident and consistent",
+        "confused and tired",
+        "angry and impatient",
+        "silent and alone"
+      ],
+      "answer_index": 0,
+      "explain_ar": "النص: keep learners confident and consistent.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nGoal setting is useful, but goals must be realistic. If a learner sets a very high target without a plan, motivation can drop quickly. A better approach is to break a big goal into smaller tasks and track progress each week. Celebrating small improvements can keep learners confident and consistent.",
+      "transcript": null,
+      "freq_week": 4,
+      "freq_month": 1
+    },
+    {
+      "id": "R-0197",
+      "section": "Reading",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Which of the following is NOT mentioned?",
+      "choices": [
+        "making a plan",
+        "tracking progress",
+        "celebrating improvements",
+        "buying expensive courses"
+      ],
+      "answer_index": 3,
+      "explain_ar": "لم يُذكر شراء دورات غالية.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nGoal setting is useful, but goals must be realistic. If a learner sets a very high target without a plan, motivation can drop quickly. A better approach is to break a big goal into smaller tasks and track progress each week. Celebrating small improvements can keep learners confident and consistent.",
+      "transcript": null,
+      "freq_week": 1,
+      "freq_month": 7
+    },
+    {
+      "id": "R-0198",
+      "section": "Reading",
+      "difficulty": 3,
+      "model_no": 51,
+      "prompt": "The main idea is that ____.",
+      "choices": [
+        "goals are useless",
+        "goals need planning and smaller steps",
+        "only big goals matter",
+        "motivation never changes"
+      ],
+      "answer_index": 1,
+      "explain_ar": "الفكرة: أهداف + خطة + تقسيم + متابعة.",
+      "tags": [
+        "reading",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": "Passage:\nGoal setting is useful, but goals must be realistic. If a learner sets a very high target without a plan, motivation can drop quickly. A better approach is to break a big goal into smaller tasks and track progress each week. Celebrating small improvements can keep learners confident and consistent.",
+      "transcript": null,
+      "freq_week": 1,
+      "freq_month": 2
+    },
+    {
+      "id": "L-0061",
+      "section": "Listening",
+      "difficulty": 1,
+      "model_no": 51,
+      "prompt": "When will B submit the assignment?",
+      "choices": [
+        "This morning",
+        "Tonight",
+        "Tomorrow",
+        "Next week"
+      ],
+      "answer_index": 1,
+      "explain_ar": "B قال: I’ll submit it tonight → الليلة.",
+      "tags": [
+        "listening",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": "Transcript:\nA: Did you finish the assignment?\nB: Not yet. I’ll submit it tonight after dinner.",
+      "freq_week": 4,
+      "freq_month": 6
+    },
+    {
+      "id": "L-0062",
+      "section": "Listening",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "Why was the meeting moved?",
+      "choices": [
+        "Because the room is closed",
+        "Because the manager is late",
+        "Because everyone finished early",
+        "Because it is raining"
+      ],
+      "answer_index": 1,
+      "explain_ar": "السبب واضح: because the manager is late.",
+      "tags": [
+        "listening",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": "Transcript:\nA: The meeting starts at 3, right?\nB: Actually, it was moved to 4 because the manager is late.",
+      "freq_week": 0,
+      "freq_month": 5
+    },
+    {
+      "id": "L-0063",
+      "section": "Listening",
+      "difficulty": 1,
+      "model_no": 51,
+      "prompt": "Which bus should A take?",
+      "choices": [
+        "Bus 3",
+        "Bus 10",
+        "Bus 12",
+        "Bus 21"
+      ],
+      "answer_index": 2,
+      "explain_ar": "B قال: Take bus number 12.",
+      "tags": [
+        "listening",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": "Transcript:\nA: Which bus goes to the university?\nB: Take bus number 12, and get off at the third stop.",
+      "freq_week": 4,
+      "freq_month": 5
+    },
+    {
+      "id": "L-0064",
+      "section": "Listening",
+      "difficulty": 2,
+      "model_no": 51,
+      "prompt": "What advice does B give?",
+      "choices": [
+        "Skip the test",
+        "Study all night",
+        "Review mistakes and sleep early",
+        "Buy a new phone"
+      ],
+      "answer_index": 2,
+      "explain_ar": "النصيحة: review mistakes + sleep early.",
+      "tags": [
+        "listening",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": "Transcript:\nA: I’m nervous about the test.\nB: Don’t worry. Just review your mistakes and sleep early.",
+      "freq_week": 1,
+      "freq_month": 7
+    },
+    {
+      "id": "L-0065",
+      "section": "Listening",
+      "difficulty": 1,
+      "model_no": 51,
+      "prompt": "What does the word mean?",
+      "choices": [
+        "Funny",
+        "Important",
+        "Slow",
+        "Cheap"
+      ],
+      "answer_index": 1,
+      "explain_ar": "B وضّح المعنى: important.",
+      "tags": [
+        "listening",
+        "static",
+        "v5plus",
+        "model51"
+      ],
+      "passage": null,
+      "transcript": "Transcript:\nA: Can you help me with this word?\nB: Sure. It means 'important', similar to 'significant'.",
+      "freq_week": 4,
+      "freq_month": 4
     }
-  ]
+  ],
+  "meta": {
+    "count": 898,
+    "updated_at": "2026-02-05T07:20:37Z",
+    "version": "v5-final-static-app"
+  }
 }
