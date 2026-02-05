@@ -7,7 +7,7 @@
   <title>بدء الاختبار — أكاديمية عايد الرسمية</title>
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icons/favicon-32.png" />
-  <link rel="stylesheet" href="./assets/css/app.css" />
+  <link rel="stylesheet" href="./assets/css/tailwind.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
@@ -42,9 +42,42 @@
       <form id="startForm">
         <div class="grid-2">
           <div class="field">
-            <div class="label">اسمك</div>
-            <input class="input" id="name" name="name" placeholder="مثال: محمد" autocomplete="name" />
+            <div class="label">اسمك الكامل</div>
+            <input class="input" id="name" name="name" placeholder="مثال: محمد أحمد" autocomplete="name" required />
             <div class="help">الاسم يظهر داخل الخطة وملف PDF فقط.</div>
+          </div>
+
+
+          <div class="field">
+            <div class="label">الجنس</div>
+            <select id="gender" class="input" required>
+              <option value="" disabled selected>اختر</option>
+              <option value="male">طالب</option>
+              <option value="female">طالبة</option>
+            </select>
+            <div class="help">لتحسين أسلوب الخطاب في الخطة ورسائل المشاركة.</div>
+          </div>
+
+          <div class="field">
+            <div class="label">المدينة</div>
+            <input class="input" id="city" placeholder="مثال: الرياض" autocomplete="address-level2" required />
+            <div class="help">نستخدمها داخل الإشعارات التحفيزية (بدون ذكر معلومات حساسة).</div>
+          </div>
+
+          <div class="field">
+            <div class="label">تاريخ الاختبار (اختياري)</div>
+            <input class="input" id="exam_date" type="date" />
+            <div class="help">إذا حددت التاريخ، نرتّب لك الخطة حسب الأيام المتبقية.</div>
+          </div>
+
+          <div class="field">
+            <div class="label">هل سبق دخلت اختبار STEP؟</div>
+            <select id="attempts" class="input" required>
+              <option value="" disabled selected>اختر</option>
+              <option value="0">أول مرة</option>
+              <option value="1">مرة واحدة</option>
+              <option value="2">مرتين أو أكثر</option>
+            </select>
           </div>
 
           <div class="field">
